@@ -1,8 +1,8 @@
-#include "CacheStateMagic.h"
+//#include "CacheStateMagic.h"
 
 int example ()
 {
-  int PRIV sec; 
+  int   __attribute__((annotate("sensitive"))) sec; 
   int a,b,c,d,e,f,g;
  
 
